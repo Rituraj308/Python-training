@@ -9,5 +9,5 @@ class PlayerCharacter:
 player1 = PlayerCharacter('Cindy',22)
 player2 = PlayerCharacter('Tom',34)
 player2.attack = 50
-print(player1.age)
-print(player2.age)
+print(player1.name)
+print(player2.run())
