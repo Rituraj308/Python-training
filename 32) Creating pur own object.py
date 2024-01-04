@@ -6,8 +6,8 @@ class PlayerCharacter:
         print('run')
         return 'done'
 
-player1 = PlayerCharacter('Cindy',22)
-player2 = PlayerCharacter('Tom',34)
+player1 = PlayerCharacter('Cindy', 22)
+player2 = PlayerCharacter('Tom', 34)
 player2.attack = 50
 print(player1.name)
 print(player2.run())
