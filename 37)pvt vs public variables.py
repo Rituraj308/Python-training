@@ -10,7 +10,7 @@ class PlayerCharacter:
      print(f'my name is {self._name},and i am {self._age} years old.')
 
 Player1 = PlayerCharacter('Ritu Raj', 25)
-Player1.name = '!!!'
-Player1.speak = 'BOOOO'
+#Player1.name = '!!!'
+#Player1.speak = 'BOOOO'
 
-print(Player1.speak)
+print(Player1.speak())
