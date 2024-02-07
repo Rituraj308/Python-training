@@ -17,7 +17,7 @@ def long_time():
 @perfromance
 def long_time2():
     print('2')
-    for i in list(range(100000000)):                              #list takes longer time 
+    for i in list(range(100000000)):                              #list takes longer time
         i*5
 
 long_time()
