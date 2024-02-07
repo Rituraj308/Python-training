@@ -22,7 +22,7 @@ class MyGen():
             num = MyGen.current
             MyGen.current +=1
             return num
-        raise StopIteration 
+        raise StopIteration
 
 gen = MyGen(0,100)
 for i in gen:
