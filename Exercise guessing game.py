@@ -9,8 +9,10 @@ while True:
         guess = int(input('guess a number 1~10: '))
         if 0 < guess < 11:
             if guess == answer:
-                print('you are genius!')
+                print('you are a genius!')
                 break
+        else:
+            print('heye bozo i said 1~10')
     except ValueError:
         print('pls enter a number')
         continue
