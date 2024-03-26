@@ -1,7 +1,7 @@
 #using Re creat a password checker
 #it should be 8 char long
 #it should contain any short of letters , nummbers and $%#@
-
+#password has to end with a number
 
 import re    #re= regular expression
 
