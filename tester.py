@@ -11,8 +11,18 @@ class TestMain(unittest.TestCase):
     def test_do_stuff2(self):
         test_param = 'shkshs'
         result = do_stuff(test_param)
-        self.assertTrue(isinstance(result,ValueError))
+        self.assertIsInstance(result,ValueError)    #insted od assertTrue() we can use asserIsInstance
+
+    def test_do_stuff3(self):
+        test_param = None
+        result = do_stuff(test_param)
+        self.assertEqual(result, 'please enter number')
+
+    def test_do_stuff4(self):
+        test_param = ''
+        result = do_stuff(test_param)
+        self.assertEqual(result, 'please enter number')
 
 
 if __name__ == '__main__':
-    unittest.Unitester()
+      unittest.Unitester()      #we can aslo use unittest.main
