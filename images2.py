@@ -1,5 +1,5 @@
 from PIL import Image, ImageFilter
-img = Image.open( 'C:\\Users\\ritur\\OneDrive\\Desktop\\RITURAJ\\Git hub proj\\Python-training\\pokidesk\\pikachu.jpg')
+img = Image.open('C:\\Users\\ritur\\OneDrive\\Desktop\\RITURAJ\\Git hub proj\\Python-training\\pokidesk\\pikachu.jpg')
 filtered_img2 = img.convert('L')
 croocked = filtered_img2.rotate(90) #rotates the images
 croocked.save('greys.png','png')
